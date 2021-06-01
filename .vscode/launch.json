@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProducerApplication<producer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.producer.ProducerApplication",
+            "projectName": "producer",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-KafkaApplication<consumer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.consumer.KafkaApplication",
+            "projectName": "consumer",
+            "args": ""
+        }
+    ]
+}
